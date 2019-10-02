@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-header {
+    width: 100%;
+    padding: 8px 16px;
+   
+}
+.main-header_brand {
+    vertical-align: middle;
+
+}
+.main-header > div {
+    display: inline-block;
+    
+}
+.main-header  img {
+    margin: 10px;
+}
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 160px);
+    vertical-align: middle;
+    
+}
+.main-nav__items {
+    list-style: none;
+     margin: 0;
+    padding: 0;
+}
+.main-nav__item {
+   
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-nav__item > a {
+    text-decoration: none;
+    border-radius: 28px;
+    border: 1px solid red;
+    padding: 7px;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+#log-instruct {
+    height: 400px;
+    width: 100%;
+}
+#log-instruct  h5 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.social-login {
+    text-align: center;
+    list-style: none;
+}
+.social-login  a {
+    text-decoration: none;
+}
+.social-login__item1 a{
+    color: white;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 9px 109px;
+    font-weight: bold;
+    font-size: 20px;
+    background: black;
+}
+.social-login__item1 {
+    margin-bottom: 40px;
+}
+.social-login__item2 a{
+    color: white;
+    border: 1px solid red;
+    border-radius: 18px;
+    padding: 9px 100px;
+    font-weight: bold;
+    font-size: 20px;
+    background: red;
+    
+}
+
