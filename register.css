@@ -56,7 +56,7 @@ body {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    padding-left: 40px;
+    
     
 }
 
@@ -96,3 +96,25 @@ body {
 .footer a {
     text-decoration: none;
 }
+.form {
+    text-align: center;
+}
+.form > input{
+    display:block;
+    padding: 7px 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size:15px;
+    text-align: center;
+    border-radius: 8px;
+}
+.form > button {
+    border: 2px solid black;
+    padding: 7px 92px;
+    color: white;
+    border-radius: 8px;
+    background-color: black;
+   margin-top: 10px;
+   font-size:17px;
+}
+
