@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-header {
+    width: 100%;
+    padding: 8px 16px;
+   
+}
+.main-header_brand {
+    vertical-align: middle;
+
+}
+.main-header > div {
+    display: inline-block;
+    
+}
+.main-header  img {
+    margin: 10px;
+}
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 160px);
+    vertical-align: middle;
+    
+}
+.main-nav__items {
+    list-style: none;
+     margin: 0;
+    padding: 0;
+}
+.main-nav__item {
+   
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-nav__item > a {
+    text-decoration: none;
+    border-radius: 28px;
+    border: 1px solid red;
+    padding: 7px;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+#dash-details {
+    height: 400px;
+    width: 100%;
+    
+}
+.dash-details__userD img {
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+.dash-details__userD  h5 {
+    font-weight: bold;
+    font-size: 30px; 
+    margin-bottom: 0px;  
+}
+.dash-details__userD p {
+    color: red;
+    margin-top: 25px;
+    
+}
+.dash-details__userD__ {
+    display: inline-block;
+}
+
+#dash-control {
+    text-align: center;
+   vertical-align: top;
+   
+   margin-bottom: 0;
+  z-index: 1;
+  position: relative;
+}
+.dash-control-details {
+    display: inline-block;
+}
+.dash-control-status {
+    border: 2px solid gray;
+    width: 350px;
+    text-align: center;
+
+}
+.dash-control-status h5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.dash-control-status p {
+    font-size: 25px;
+    margin-top: 10;
+}
+.dash-control-buttons {
+    list-style: none;
+}
+.dash-control-buttons a {
+    text-decoration: none;
+
+}
+.dash-control-button-1 {
+    margin-bottom: 20px;
+}
+.dash-control-button-1 a {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px 28px;
+    background: black;
+    color: white;
+    
+}
+.dash-control-button-2 a {
+    border: 2px solid rgb(209, 236, 252);
+    border-radius: 6px;
+    padding: 7px 16px;
+    background: rgb(209, 236, 252);
+    color: black;
+}
+
+.dash-control-activity {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 0;
+    vertical-align: top;
+    
+}
+.dash-control-activity h5 {
+     font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.dash-control-activity img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.dash-control-activity-detail {
+    display: inline-block;
+    
+}
+.dash-control-activity-detail h6 {
+     font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+    vertical-align: middle;
+
+}
+.footer {
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+}
