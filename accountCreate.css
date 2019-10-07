@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-header {
+    width: 100%;
+    padding: 8px 16px;
+   
+}
+.main-header_brand {
+    vertical-align: middle;
+
+}
+.main-header > div {
+    display: inline-block;
+    
+}
+.main-header  img {
+    margin: 10px;
+}
+
+#log-instruct {
+    height: 400px;
+    width: 100%;
+    margin-top: 130px;
+}
+#log-instruct  h5 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;  
+    margin-bottom: 16px; 
+}
+
+#log-instruct p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+.dash_redirect {
+    text-align: center;
+}
+
+.dash_redirect > button {
+    border: 2px solid black;
+    padding: 7px 92px;
+    color: white;
+    border-radius: 8px;
+    background-color: black;
+   margin-top: 10px;
+   font-size:17px;
+}
+
+
+
+.footer {
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+}
+
