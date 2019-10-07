@@ -48,7 +48,7 @@ body {
     font-size: 15px;
 }
 #dash-details {
-    height: 400px;
+    height: 170px;
     width: 100%;
     
 }
@@ -78,10 +78,11 @@ body {
 #dash-control {
     text-align: center;
    vertical-align: top;
-   
+   margin-top: -40px;
    margin-bottom: 0;
   z-index: 1;
   position: relative;
+  
 }
 .dash-control-details {
     display: inline-block;
@@ -90,6 +91,7 @@ body {
     border: 2px solid gray;
     width: 350px;
     text-align: center;
+    background: white;
 
 }
 .dash-control-status h5 {
