@@ -157,9 +157,18 @@ body {
     vertical-align: middle;
 
 }
-.footer {
-    text-align: center;
-}
-.footer a {
+
+#footer a {
     text-decoration: none;
+
+}
+
+.footer-item-1 {
+    padding-left: 10px;
+    float: left;
+
+}
+ .footer-item-2 {
+    
+    float: right;
 }
